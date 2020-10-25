@@ -43,13 +43,13 @@ p{
 #git-link{
     margin: 0;
     padding:0;
-    border-radius: 0 0 0px 5px;
+    border-radius: 5px;
     position: absolute;
     background-color: rgb(65, 61, 61);
     width: 50px;
     height: 50px;
-    top:0;
-    right: 0;
+    top:5px;
+    right: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,6 +73,7 @@ p{
 }
 
 #main {
+    position: relative;
     background-color: rgba(230, 238, 67, 0.789);
     margin: 10px 5px;
     border: solid grey 1px;
