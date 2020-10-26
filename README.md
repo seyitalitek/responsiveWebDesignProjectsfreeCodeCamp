@@ -1,4 +1,4 @@
-# Responsive Web Design Projects for pratice tutuorial at the  [freeCodeCamp.org](https://www.freecodecamp.org/)
+# Responsive Web Design Projects for pratice tutorial at [freeCodeCamp.org](https://www.freecodecamp.org/)
 
 Small projects that are builded while making hands-on practices at the freeCodeCamp.org Responsive Web Design Certification program.
 
