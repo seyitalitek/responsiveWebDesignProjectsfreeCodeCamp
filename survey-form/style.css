@@ -110,3 +110,35 @@ color: rgb(192, 191, 191);
     cursor: pointer;
     background-color: #b60101;
 }
+
+#git-link{
+    margin: 0;
+    padding:0;
+    border-radius: 5px;
+    position: absolute;
+    background-color: rgb(65, 61, 61);
+    width: 50px;
+    height: 50px;
+    top:5px;
+    right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#git-link p{
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+#git-link p a i{
+    color:rgba(230, 238, 67, 0.789);
+}
+
+#git-link p a:hover{
+    background-color: rgb(65, 61, 61) ;
+}
+
+#git-link p a:hover i{
+    color: rgba(230, 238, 67);
+}
