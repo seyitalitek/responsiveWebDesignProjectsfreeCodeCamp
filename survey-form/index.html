@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0b462a31ab.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" defer></script> -->
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, harum!</p>
+
+    <form action="" id="survey-form">
+        <fieldset>
+
+            <legend>Personal Infos</legend>
+
+            <label for="name" id="name-label">Name:</label>
+            <input type="text" name="userName" id="name" placeholder="Enter your name" required>
+            <label for="email" id="email-label">E-mail:</label>
+            <input type="email" name="userEmail" id="email" placeholder="Enter your e-mail" required>
+            <label for="number" id="number-label">Age:</label>
+            <input type="number" min="0" max="100" name="number" placeholder="Enter your age" id="number">
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Question?</legend>
+
+            <label for="answer1"><input type="radio" name="answer" id="answer1" value="1">Answer 1</label>
+            <label for="answer2"><input type="radio" name="answer" id="answer2" value="2">Answer 2</label>
+            <label for="answer3"><input type="radio" name="answer" id="answer3" value="3">Answer 3</label>
+            <label for="answer4"><input type="radio" name="answer" id="answer4" value="4">Answer 4</label>
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Peference?</legend>
+
+            <label for="prefer1"><input type="checkbox" name="prefer" id="prefer1" value="1">Preference 1</label>
+            <label for="prefer2"><input type="checkbox" name="prefer" id="prefer2" value="1">Preference 2</label>
+            <label for="prefer3"><input type="checkbox" name="prefer" id="prefer3" value="1">Preference 3</label>
+            <label for="prefer4"><input type="checkbox" name="prefer" id="prefer4" value="1">Preference 4</label>
+        </fieldset>
+        <fieldset>
+
+            <legend for="select">Choose one?</legend>
+
+            <select name="select" id="dropdown">
+                <option value="1">Selection 1</option>
+                <option value="2">Selection 2</option>
+                <option value="3">Selection 3</option>
+                <option value="4">Selection 4</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Comments: </legend>
+        <textarea name="comment" id="" cols="30" rows="10" id="textarea"></textarea>
+        </fieldset>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+
+</body>
+
+</html>
