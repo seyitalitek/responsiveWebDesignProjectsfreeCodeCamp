@@ -1,149 +1,136 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap");
 
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 html {
-    min-height: 100%;
+  min-height: 100%;
 }
 
 #body {
-    display: flex;
+  display: flex;
 }
 
 #navbar {
-    min-width: 250px;
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-    position: fixed;
-
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  position: fixed;
 }
 
 #nav-place-holder {
-    min-width: 250px;
-    border-right: solid 1px;
+  min-width: 250px;
+  border-right: solid 1px;
 }
 
 header {
-    padding: 15px;
-    font-size: 1.3em;
-
+  padding: 15px;
+  font-size: 1.3em;
 }
 
 #navbar header {
-    border-bottom: 2px solid;
-    margin-bottom: 5px;
-    text-align: center;
+  border-bottom: 2px solid;
+  margin-bottom: 5px;
+  text-align: center;
 }
 
 a {
-    text-decoration: none;
-    color: crimson;
+  text-decoration: none;
+  color: crimson;
 }
 
-
-
 a:visited {
-    color: blueviolet;
+  color: blueviolet;
 }
 
 a:hover {
-    color: rgb(33, 146, 76);
+  color: rgb(33, 146, 76);
 }
 
 .nav-link {
-    display: block;
-    padding: 5px;
-    border-bottom: 1px solid black;
+  display: block;
+  padding: 5px;
+  border-bottom: 1px solid black;
 }
 
-
-
-
 .main-section {
-    padding: 15px;
-    ;
+  padding: 15px;
 }
 
 p {
-    padding: 15px 0;
-    text-align: justify;
+  padding: 15px 0;
+  text-align: justify;
 }
 
 ul {
-    padding-left: 20px;
-    list-style: square;
-
+  padding-left: 20px;
+  list-style: square;
 }
-
 
 code {
-    background-color: #eee;
-    border-radius: 3px;
-    font-family: courier, monospace;
-    padding: 0 3px;
+  background-color: #eee;
+  border-radius: 3px;
+  font-family: courier, monospace;
+  padding: 0 3px;
 }
 
-
 #git-link {
-    margin: 0;
-    padding: 0;
-    border-radius: 5px;
-    position: absolute;
-    background-color: rgb(65, 61, 61);
-    width: 50px;
-    height: 50px;
-    top: 5px;
-    right: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  position: absolute;
+  background-color: rgb(65, 61, 61);
+  width: 50px;
+  height: 50px;
+  top: 5px;
+  right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 500px) {
-    #body {
-        flex-direction: column;
-    }
+  #body {
+    flex-direction: column;
+  }
 
-    #navbar {
-        max-height: 275px;
-        padding: 15px;
-        position: unset;
-        overflow: scroll;
-        scroll-behavior: auto;
-        border-bottom: 1px solid;
-        border-right: none;
+  #navbar {
+    max-height: 275px;
+    padding: 15px;
+    position: unset;
+    overflow: scroll;
+    scroll-behavior: auto;
+    border-bottom: 1px solid;
+    border-right: none;
+  }
 
-    }
-
-    #nav-place-holder {
-        max-height: 200px;
-        display: none;
-
-    }
+  #nav-place-holder {
+    max-height: 200px;
+    display: none;
+  }
 }
 
 #git-link p {
-    padding: 0;
-    margin: 0;
-    font-size: 40px;
-    color: rgb(27, 26, 26);
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+  color: rgb(27, 26, 26);
 }
 
 #git-link p a i {
-    color: rgba(230, 238, 67, 0.789);
+  color: rgba(230, 238, 67, 0.789);
 }
 
 #git-link p a:hover {
-    background-color: rgb(65, 61, 61);
+  background-color: rgb(65, 61, 61);
 }
 
 #git-link p a:hover i {
-    color: rgba(230, 238, 67);
+  color: rgba(230, 238, 67);
 }

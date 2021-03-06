@@ -1,58 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap");
 
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    margin:0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 body {
-    position: relative;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1rem;
-    line-height: 1.3;
-    margin:0;
-    color: whitesmoke;
-    padding:30px 0;
-    background-image: linear-gradient(
-        115deg,
-        #e23d28,
-        rgba(43, 43, 66, 0.7)
-      ),
-      url(pexels-dids-2714073.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  line-height: 1.3;
+  margin: 0;
+  color: whitesmoke;
+  padding: 30px 0;
+  background-image: linear-gradient(115deg, #e23d28, rgba(43, 43, 66, 0.7)),
+    url(pexels-dids-2714073.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-#bg-source{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    color:rgb(214, 214, 214);
-    padding: 3px;
-    font-size: 0.8rem;
+#bg-source {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: rgb(214, 214, 214);
+  padding: 3px;
+  font-size: 0.8rem;
 }
 
-  h1,
-  p{
-      margin-top: 15px;
-      text-align: center;
-  }
-
-form{
-    margin: 0 auto;
-    max-width: 960px;
-    display: flex;
-    flex-direction: column;
+h1,
+p {
+  margin-top: 15px;
+  text-align: center;
 }
-fieldset{
-    margin: 5px;
-    border: solid rgb(226, 223, 223) 1px;
+
+form {
+  margin: 0 auto;
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+}
+fieldset {
+  margin: 5px;
+  border: solid rgb(226, 223, 223) 1px;
 }
 label {
-    display: block;
+  display: block;
 }
 
 input,
@@ -61,82 +56,79 @@ select,
 textarea,
 label,
 legend,
-option{
-    font-family: inherit;
-    padding:5px;
-    margin:3px;
-    border:none;
+option {
+  font-family: inherit;
+  padding: 5px;
+  margin: 3px;
+  border: none;
 }
 input[type="text"],
 input[type="email"],
 input[type="number"],
 textarea,
-select
-{
-    color:white;
-    background-color: rgb(43, 43, 66);
-    width: 100%;
+select {
+  color: white;
+  background-color: rgb(43, 43, 66);
+  width: 100%;
 }
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="number"]:focus,
 textarea:focus,
-select:focus
-{
-outline: none;
+select:focus {
+  outline: none;
 }
 input[type="text"]::placeholder,
 input[type="email"]::placeholder,
 input[type="number"]::placeholder,
 textarea::placeholder,
-select::placeholder
-{
-color: rgb(192, 191, 191);
+select::placeholder {
+  color: rgb(192, 191, 191);
 }
-#submit{
-    width: 50%;
-    max-width: 250px;
-    padding: 5px;
-    background-color: #8b0000;
-    color: white;
-    margin:10px auto;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    letter-spacing: 5px;
+#submit {
+  width: 50%;
+  max-width: 250px;
+  padding: 5px;
+  background-color: #8b0000;
+  color: white;
+  margin: 10px auto;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
-#submit:hover{
-    cursor: pointer;
-    background-color: #b60101;
-}
-
-#git-link{
-    margin: 0;
-    padding:0;
-    border-radius: 5px;
-    position: absolute;
-    background-color: rgb(65, 61, 61);
-    width: 50px;
-    height: 50px;
-    top:5px;
-    right: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#submit:hover {
+  cursor: pointer;
+  background-color: #b60101;
 }
 
-#git-link p{
-    padding: 0;
-    margin: 0;
-    font-size: 40px;
-}
-#git-link p a i{
-    color:rgba(230, 238, 67, 0.789);
+#git-link {
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  position: absolute;
+  background-color: rgb(65, 61, 61);
+  width: 50px;
+  height: 50px;
+  top: 5px;
+  right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#git-link p a:hover{
-    background-color: rgb(65, 61, 61) ;
+#git-link p {
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+}
+#git-link p a i {
+  color: rgba(230, 238, 67, 0.789);
 }
 
-#git-link p a:hover i{
-    color: rgba(230, 238, 67);
+#git-link p a:hover {
+  background-color: rgb(65, 61, 61);
+}
+
+#git-link p a:hover i {
+  color: rgba(230, 238, 67);
 }

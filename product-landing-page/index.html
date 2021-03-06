@@ -1,73 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Best Breads in the World</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/0b462a31ab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/0b462a31ab.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" defer></script> -->
-</head>
+  </head>
 
-<body>
-
+  <body>
     <header id="header">
-        <img src="./assets/logo.png" alt="compony logo" id="header-img">
-        <nav id="nav-bar">
-            <a href="#breads" class="nav-link">Breads</a>
-            <a href="#done" class="nav-link">How they're done</a>
-            <a href="#prices" class="nav-link">Prices</a>
-        </nav>
+      <img src="./assets/logo.png" alt="compony logo" id="header-img" />
+      <nav id="nav-bar">
+        <a href="#breads" class="nav-link">Breads</a>
+        <a href="#done" class="nav-link">How they're done</a>
+        <a href="#prices" class="nav-link">Prices</a>
+      </nav>
     </header>
 
     <div id="git-link">
-        <p>
-            <a href="https://github.com/seyitalitek/responsiveWebDesignProjectsfreeCodeCamp"><i
-                    class="fab fa-github"></i></a></p>
+      <p>
+        <a
+          href="https://github.com/seyitalitek/responsiveWebDesignProjectsfreeCodeCamp"
+          ><i class="fab fa-github"></i
+        ></a>
+      </p>
     </div>
 
     <main>
-        <section id="breads">
-            <h1>Breads</h1>
-            <img src="./assets/bread1.jpg" alt="" class="section-img">
-            <img src="./assets/bread2.jpg" alt="" class="section-img">
-            <img src="./assets/bread3.jpg" alt="" class="section-img">
-        </section>
-        <section id="done">
-            <h1>How they're done</h1>
-            <img src="./assets/prep1.jpg" alt="" class="section-img">
-            <img src="./assets/prep2.jpg" alt="" class="section-img">
-            <img src="./assets/prep3.jpg" alt="" class="section-img">
-        </section>
-        <section id="prices">
+      <section id="breads">
+        <h1>Breads</h1>
+        <img src="./assets/bread1.jpg" alt="" class="section-img" />
+        <img src="./assets/bread2.jpg" alt="" class="section-img" />
+        <img src="./assets/bread3.jpg" alt="" class="section-img" />
+      </section>
+      <section id="done">
+        <h1>How they're done</h1>
+        <img src="./assets/prep1.jpg" alt="" class="section-img" />
+        <img src="./assets/prep2.jpg" alt="" class="section-img" />
+        <img src="./assets/prep3.jpg" alt="" class="section-img" />
+      </section>
+      <section id="prices">
+        <h1>Prices</h1>
+        <div class="prices-img">
+          <img src="./assets/bread1.jpg" alt="" class="section-img" />
+          <span class="price-label">1.99 €</span>
+        </div>
+        <div class="prices-img">
+          <img src="./assets/bread2.jpg" alt="" class="section-img" />
+          <span class="price-label">2.99 €</span>
+        </div>
+        <div class="prices-img">
+          <img src="./assets/bread3.jpg" alt="" class="section-img" />
+          <span class="price-label">3.99 €</span>
+        </div>
+      </section>
 
-            <h1>Prices</h1>
-            <div class="prices-img"><img src="./assets/bread1.jpg" alt="" class="section-img">
-                <span class="price-label">1.99 €</span>
-            </div>
-            <div class="prices-img"><img src="./assets/bread2.jpg" alt="" class="section-img">
-                <span class="price-label">2.99 €</span></div>
-            <div class="prices-img"><img src="./assets/bread3.jpg" alt="" class="section-img">
-                <span class="price-label">3.99 €</span></div>
+      <video width="500" height="" id="video" controls>
+        <source src="./assets/product_video.mp4" type="" />
+        Your browser does not support the video tag.
+      </video>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <label>Subscribe to Newsletter E-mail:</label>
+        <input
+          autocomplete="off"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Your E-mail"
+          required
+        />
 
-
-
-        </section>
-
-        <video width="500" height="" id="video" controls>
-            <source src="./assets/product_video.mp4" type="">
-            Your browser does not support the video tag.
-        </video>
-        <form action="https://www.freecodecamp.com/email-submit" id="form">
-            <label>Subscribe to Newsletter E-mail:</label>
-            <input autocomplete="off" type="email" name="email" id="email" placeholder="Your E-mail" required>
-
-            <input type="submit" value="SUBMIT" id="submit">
-        </form>
+        <input type="submit" value="SUBMIT" id="submit" />
+      </form>
     </main>
-
-
-</body>
-
+  </body>
 </html>
